@@ -2,7 +2,7 @@
 
 U novom Laravel projektu uraditi sledece izmene:
 
-.env.example zameniti sa ----> env i dodati tacku ispred (.env)
+.env.example zameniti sa ----> env i dodati tacku ispred (.env), prilagoditi ime baze, password i username 
 
 u App ubaciti -----> Brak.php, Covek.php, Deca.php, Godine.php, Mesto.php, Muzika.php, Obrazovanje.php, Politika.php, Primanja.php, Veroispovest.php
 
