@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class Godine extends Model
 {
     function covek(){
-        return $this->hasMany('App/Covek');
+        return $this->hasMany('App\Covek');
     }
 }
