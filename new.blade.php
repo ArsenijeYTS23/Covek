@@ -17,6 +17,8 @@ moja trenutna primanja: {{ $covek->primanja->name }} hiljada <br>
 moja veroispovest: 
 @if($covek->veroispovest->name=='ateista')
 {{ '/' }}
+@else 
+{{$covek->veroispovest->name}}
 @endif
 
 
